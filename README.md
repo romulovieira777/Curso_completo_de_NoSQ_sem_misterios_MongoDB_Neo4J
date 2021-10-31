@@ -7,6 +7,7 @@
 - Seção 04 - Infraestrutura do MongoDB
 - Seção 05 - Um pouco de Teoria
 - Seção 06 - MongoDB
+- Seção 07 - Analogia de Queries
 
 
 Link para o curso: [Udemy](https://www.udemy.com/course/curso-banco-de-dados-nosql-mongodb-neo4j-redis/)
