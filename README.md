@@ -5,6 +5,8 @@
 - [Seção 02 - Montando o Ambiente de Estudo](https://github.com/romulovieira777/Curso_completo_de_NoSQ_sem_misterios_MongoDB_Neo4J/tree/main/Se%C3%A7%C3%A3o%2002%20-%20Montando%20o%20Ambiente%20de%20Estudo)
 - Seção 03 - Instalando os Bancos de Dados
 - Seção 04 - Infraestrutura do MongoDB
+- Seção 05 - Um pouco de Teoria
+- Seção 06 - MongoDB
 
 
 Link para o curso: [Udemy](https://www.udemy.com/course/curso-banco-de-dados-nosql-mongodb-neo4j-redis/)
