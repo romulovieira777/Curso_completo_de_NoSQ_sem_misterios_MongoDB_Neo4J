@@ -1,0 +1,12 @@
+-- Relacional
+-- 1 - Criei banco de dados
+-- 2 - Conectei ao banco de dados
+-- 3 - Criei as tabelas
+	-- Aviao
+    -- Aeroportos
+    -- Voos
+-- 4 - Entrei com os dados
+	-- Aviao
+    -- Aeroportos
+    -- Voos
+-- 5 - Consultei os dados
