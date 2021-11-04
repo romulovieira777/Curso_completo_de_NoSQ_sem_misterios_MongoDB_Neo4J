@@ -1,0 +1,46 @@
+INSERT INTO
+	CLIENTES
+VALUES(
+	NULL
+  ,'LETICIA'
+  ,'F'
+), (
+    NULL
+  ,'MAFRA'
+  ,'F'
+);
+
+INSERT INTO
+	CLIENTES
+VALUES(
+	NULL
+  ,'JOAO'
+  ,'M'
+);
+
+
+INSERT INTO
+	CLIENTES
+VALUES(
+	NULL
+  ,'JORGE'
+  ,'M'
+);
+
+
+INSERT INTO
+	CLIENTES
+VALUES(
+	NULL
+  ,'CLARA'
+  ,'F'
+);
+
+
+INSERT INTO
+	CLIENTES
+VALUES(
+	NULL
+  ,'LILIAN'
+  ,'F'
+);
