@@ -9,5 +9,6 @@
 - [Seção 06 - MongoDB](https://github.com/romulovieira777/Curso_completo_de_NoSQ_sem_misterios_MongoDB_Neo4J/tree/main/Se%C3%A7%C3%A3o%2006%20-%20MongoDB)
 - [Seção 07 - Analogia de Queries](https://github.com/romulovieira777/Curso_completo_de_NoSQ_sem_misterios_MongoDB_Neo4J/tree/main/Se%C3%A7%C3%A3o%2007%20-%20Analogia%20de%20Queries)
 - [Seção 08 - Operações](https://github.com/romulovieira777/Curso_completo_de_NoSQ_sem_misterios_MongoDB_Neo4J/tree/main/Se%C3%A7%C3%A3o%2008%20-%20Opera%C3%A7%C3%B5es)
+- [Seção 09 - Projeto de Modelagem](https://github.com/romulovieira777/Curso_completo_de_NoSQ_sem_misterios_MongoDB_Neo4J/tree/main/Se%C3%A7%C3%A3o%2009%20-%20Projeto%20de%20Modelagem)
 
 Link para o curso: [Udemy](https://www.udemy.com/course/curso-banco-de-dados-nosql-mongodb-neo4j-redis/)
