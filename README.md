@@ -13,5 +13,7 @@
 - [Seção 10 - Importação de Dados no MongoDB](https://github.com/romulovieira777/Curso_completo_de_NoSQ_sem_misterios_MongoDB_Neo4J/tree/main/Se%C3%A7%C3%A3o%2010%20-%20Importa%C3%A7%C3%A3o%20de%20Dados%20no%20MongoDB)
 - Seção 11 - Interface Gráfica
 - [Seção 12 - Manipulando Dados com Python](https://github.com/romulovieira777/Curso_completo_de_NoSQ_sem_misterios_MongoDB_Neo4J/tree/main/Se%C3%A7%C3%A3o%2012%20-%20Manipulando%20Dados%20com%20Python)
+- Seção 13 - Bônus: Introdução a Data Science e Big Data
+- Seção 14 - Neo4J
 
 Link para o curso: [Udemy](https://www.udemy.com/course/curso-banco-de-dados-nosql-mongodb-neo4j-redis/)
