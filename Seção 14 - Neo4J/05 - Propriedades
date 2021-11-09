@@ -1,0 +1,7 @@
+CREATE(:Time :Futebol)
+
+CREATE(:Time :Futebol {nome: 'Flamengo', cor: 'Preto e Vermelho'})
+
+CREATE(t:Time :Futebol {nome: 'Corinthians', cor: 'Preto e Branco'}) RETURN t
+
+MATCH(n) RETURN n

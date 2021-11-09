@@ -1,0 +1,5 @@
+CREATE (n:Time) RETURN n
+
+CREATE(cachorro :Time :Basquete)
+
+MATCH(n) RETURN n

@@ -1,0 +1,23 @@
+MATCH(n) RETURN n
+
+MATCH(n) WHERE id(n) = 60 RETURN n
+
+MATCH(n)  WHERE id(n) = 9 RETURN n
+
+MATCH(n) RETURN n
+
+MATCH(n :Time) RETURN n
+
+MATCH(n :Time :Futebol) RETURN n
+
+MATCH(n) WHERE n.nome = 'Corinthians' RETURN n
+
+MATCH(n),(y) WHERE n.nome = 'Corinthians' AND y.nome = 'Flamengo' RETURN n,y
+
+MATCH(n),(y) WHERE n.nome = 'Corinthians' AND y.cor = 'Preto e Vermelho' RETURN n,y
+
+MATCH(n :Time), (y :Time) WHERE n.nome = 'Corinthians' AND y.cor = 'Preto e Vermelho' RETURN n, y
+
+MATCH(n :Time :Basquete) RETURN n
+
+MATCH(n :Time) RETURN n

@@ -1,0 +1,37 @@
+Neo4J
+
+MATCH(n) DETACH DELETE n
+
+MATCH(n) RETURN n
+
+:play movie-graph
+
+:help
+
+:server connect
+
+:server disconnect
+
+:play start
+
+:server status
+
+:sysinfo
+
+:queries
+
+=======================================
+Principais palavras da linguagem CYPHER
+=======================================
+
+CREATE - Criar
+MATCH - Select
+RETURN - Mostra o valor criado (retorna)
+WHERE - Seleção
+SET - Update
+REMOVE - Delete
+MERGE - Criar um objeto derivado
+
+Label - Analoga ao nome de uma tabela
+
+Propriedade - Analoga ao nome de colunas

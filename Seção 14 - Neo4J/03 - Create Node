@@ -1,0 +1,9 @@
+Neo4J
+
+CREATE ()
+
+CREATE (node)
+
+CREATE(n) RETURN n
+
+MATCH(n) RETURN n
