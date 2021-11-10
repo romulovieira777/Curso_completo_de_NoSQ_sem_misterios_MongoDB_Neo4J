@@ -1,0 +1,15 @@
+MATCH(p :Selecao),(c :Continente)
+WHERE p.nome = 'Colombia' AND c.nome = 'America do Sul'
+RETURN p, c
+
+
+MATCH(p :Selecao)-[r :Pertence]->(c :Continente)
+WHERE p.nome = 'Colombia' AND c.nome = 'America do Sul'
+DELETE r
+RETURN p, c
+
+
+MATCH(p :Selecao)<-[r :Contem]-(c :Continente)
+WHERE p.nome = 'Colombia' AND c.nome = 'America do Sul'
+DELETE r
+RETURN p, c

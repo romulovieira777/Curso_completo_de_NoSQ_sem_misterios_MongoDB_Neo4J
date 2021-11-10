@@ -1,0 +1,32 @@
+MATCH(n) RETURN n
+
+MATCH(n) DETACH DELETE n
+
+MATCH(n) RETURN n
+
+CREATE (:Selecao {nome: 'Brasil', cor: 'Verde', cor: 'Amarelo'})
+
+MATCH(n) RETURN n
+
+MATCH(n) DETACH DELETE n
+
+CREATE (:Selecao {nome: 'Brasil', cor: 'Verde', cor: 'Amarelo'})
+CREATE (:Selecao {nome: 'Argentina', cor: 'Azul', cor: 'Branco'})
+CREATE (:Selecao {nome: 'Uruguai', cor: 'Azul', cor: 'Branco'})
+
+CREATE (:Selecao {nome: 'Franca', cor: 'Azul', cor: 'Branco', cor: 'Vermelho'})
+CREATE (:Selecao {nome: 'Espanha', cor: 'Amarelo', cor: 'Vermelho'})
+CREATE (:Selecao {nome: 'Alemanha', cor: 'Amarelo', cor: 'Vermelho', cor: 'Preto'})
+CREATE (:Selecao {nome: 'Inglaterra', cor: 'Vermelho', cor: 'Branco'})
+CREATE (:Selecao {nome: 'Italia', cor: 'Verde', cor: 'Vermelho', cor: 'Branco'})
+
+CREATE (:Selecao {nome: 'EUA', cor: 'Azul', cor: 'Vermelho', cor: 'Branco'})
+CREATE (:Selecao {nome: 'Japao', cor: 'Vermelho', cor: 'Branco'})
+CREATE (:Selecao {nome: 'Nigeria', cor: 'Verde', cor: 'Branco'})
+
+MATCH(n) RETURN n
+
+CREATE (:Selecao {nome: 'Canada', cor: 'Vermelho', cor: 'Branco'})
+CREATE (:Selecao {nome: 'Colombia', cor: 'Amarelo', cor: 'Vermelho', cor: 'Azul'})
+
+MATCH(n) RETURN n

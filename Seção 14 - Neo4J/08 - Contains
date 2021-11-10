@@ -1,0 +1,32 @@
+MATCH(n),(y) WHERE n.cor = 'Vermelho' OR y.cor = 'Branco' RETURN n,y
+
+MATCH(n) DETACH DELETE n
+
+MATCH(n) RETURN n
+
+================================================================================
+                              Base de Seleções
+================================================================================
+CREATE (:Selecao {nome: 'Brasil', cor: 'Verde, Amarelo'})
+CREATE (:Selecao {nome: 'Argentina', cor: 'Azul, Branco'})
+CREATE (:Selecao {nome: 'Uruguai', cor: 'Azul, Branco'})
+CREATE (:Selecao {nome: 'Franca', cor: 'Azul, Branco, Vermelho'})
+CREATE (:Selecao {nome: 'Espanha', cor: 'Amarelo, Vermelho'})
+CREATE (:Selecao {nome: 'Alemanha', cor: 'Amarelo, Vermelho, Preto'})
+CREATE (:Selecao {nome: 'Inglaterra', cor: 'Vermelho, Branco'})
+CREATE (:Selecao {nome: 'Italia', cor: 'Verde, Vermelho, Branco'})
+CREATE (:Selecao {nome: 'EUA', cor: 'Azul, Vermelho, Branco'})
+CREATE (:Selecao {nome: 'Japao', cor: 'Vermelho, Branco'})
+CREATE (:Selecao {nome: 'Nigeria', cor: 'Verde, Branco'})
+CREATE (:Selecao {nome: 'Canada', cor: 'Vermelho, Branco'})
+CREATE (:Selecao {nome: 'Colombia', cor: 'Amarelo, Vermelho, Azul'})
+
+MATCH(n) RETURN n
+
+MATCH(u) WHERE u.cor CONTAINS 'Vermelho' AND u.cor CONTAINS 'Branco' RETURN u
+
+MATCH(u) WHERE u.cor CONTAINS 'Vermelho' OR u.cor CONTAINS 'Branco' RETURN u
+
+MATCH(u) WHERE u.cor CONTAINS 'Roxo' AND u.cor CONTAINS 'Rosa' RETURN u
+
+MATCH(u) WHERE u.cor CONTAINS 'Verde' OR u.cor CONTAINS 'Rosa' RETURN u

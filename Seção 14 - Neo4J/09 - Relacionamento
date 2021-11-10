@@ -1,0 +1,39 @@
+===============================================
+             Criando Continentes
+===============================================
+
+CREATE(:Continente {nome: 'America do Sul'})
+CREATE(:Continente {nome: 'America do Norte'})
+CREATE(:Continente {nome: 'Europa'})
+CREATE(:Continente {nome: 'Africa'})
+CREATE(:Continente {nome: 'Asia'})
+
+
+MATCH(p :Selecao), (c :Continente)
+WHERE p.nome = 'Colombia' AND c.nome = 'America do Sul'
+RETURN p, c
+
+======================================================
+             Criando Primeiro Relacionamento
+======================================================
+
+MATCH(p :Selecao), (c :Continente)
+WHERE p.nome = 'Colombia' AND c.nome = 'America do Sul'
+CREATE (p)-[r :Pertence]->(c)
+RETURN p, c, r
+
+
+MATCH(p :Selecao), (c :Continente)
+WHERE p.nome = 'Colombia' AND c.nome = 'America do Sul'
+CREATE (p)<-[r :Contem]-(c)
+RETURN p, c, r
+
+
+MATCH(p :Selecao), (c :Continente)
+WHERE p.nome = 'Colombia' AND c.nome = 'America do Sul'
+RETURN p, c
+
+
+MATCH(p :Selecao)-[r :Pertence]->(c :Continente)
+WHERE p.nome = 'Colombia' AND c.nome = 'America do Sul'
+RETURN p, c, r

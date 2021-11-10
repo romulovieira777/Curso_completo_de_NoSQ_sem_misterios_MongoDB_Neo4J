@@ -1,0 +1,83 @@
+MATCH (p :Selecao), (c :Continente)
+WHERE p.nome = 'Franca' AND c.nome = 'Europa'
+RETURN p, c
+
+
+MATCH (p :Selecao), (c :Continente)
+WHERE p.nome = 'Franca' AND c.nome = 'Europa'
+MERGE (p)-[r :Pertence]->(c)
+MERGE (p)<-[s :Contem]-(c)
+RETURN p, c, r, s
+
+
+MATCH (p :Selecao), (c :Continente)
+WHERE p.nome = 'Espanha' AND c.nome = 'Europa'
+MERGE (p)-[r :Pertence]->(c)
+MERGE (p)<-[s :Contem]-(c)
+RETURN p, c, r, s
+
+
+MATCH (p :Selecao), (c :Continente)
+WHERE p.nome = 'Italia' AND c.nome = 'Europa'
+MERGE (p)-[r :Pertence]->(c)
+MERGE (p)<-[s :Contem]-(c)
+RETURN p, c, r, s
+
+
+MATCH (p :Selecao), (c :Continente)
+WHERE p.nome = 'Inglaterra' AND c.nome = 'Europa'
+MERGE (p)-[r :Pertence]->(c)
+MERGE (p)<-[s :Contem]-(c)
+RETURN p, c, r, s
+
+
+MATCH (p :Selecao), (c :Continente)
+WHERE p.nome = 'Alemanha' AND c.nome = 'Europa'
+MERGE (p)-[r :Pertence]->(c)
+MERGE (p)<-[s :Contem]-(c)
+RETURN p, c, r, s
+
+
+MATCH (p :Selecao), (c :Continente)
+WHERE p.nome = 'Canada' AND c.nome = 'America do Norte'
+MERGE (p)-[r :Pertence]->(c)
+MERGE (p)<-[s :Contem]-(c)
+RETURN p, c, r, s
+
+
+MATCH (p :Selecao), (c :Continente)
+WHERE p.nome = 'EUA' AND c.nome = 'America do Norte'
+MERGE (p)-[r :Pertence]->(c)
+MERGE (p)<-[s :Contem]-(c)
+RETURN p, c, r, s
+
+
+MATCH (p :Selecao), (c :Continente)
+WHERE p.nome = 'Japao' AND c.nome = 'Asia'
+MERGE (p)-[r :Pertence]->(c)
+MERGE (p)<-[s :Contem]-(c)
+RETURN p, c, r, s
+
+
+MATCH (p :Selecao), (c :Continente)
+WHERE p.nome = 'Nigeria' AND c.nome = 'Africa'
+MERGE (p)-[r :Pertence]->(c)
+MERGE (p)<-[s :Contem]-(c)
+RETURN p, c, r, s
+
+
+MATCH (p :Selecao), (c :Continente)
+WHERE p.nome = 'Argentina' AND c.nome = 'America do Sul'
+MERGE (p)-[r :Pertence]->(c)
+MERGE (p)<-[s :Contem]-(c)
+RETURN p, c, r, s
+
+
+MATCH (p :Selecao), (c :Continente)
+WHERE p.nome = 'Uruguai' AND c.nome = 'America do Sul'
+MERGE (p)-[r :Pertence]->(c)
+MERGE (p)<-[s :Contem]-(c)
+RETURN p, c, r, s
+
+
+MATCH (n) RETURN n
