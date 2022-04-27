@@ -16,5 +16,7 @@
 - Seção 13 - Bônus: Introdução a Data Science e Big Data
 - [Seção 14 - Neo4J](https://github.com/romulovieira777/Curso_completo_de_NoSQ_sem_misterios_MongoDB_Neo4J/tree/main/Se%C3%A7%C3%A3o%2014%20-%20Neo4J)
 - Seção 15 - ++Bônus - Big Data
+- [Certificado](https://github.com/romulovieira777/Curso_completo_de_NoSQ_sem_misterios_MongoDB_Neo4J/tree/main/Certificado)
+- [Slides](https://github.com/romulovieira777/Curso_completo_de_NoSQ_sem_misterios_MongoDB_Neo4J/tree/main/Slides)
 
 Link para o curso: [Udemy](https://www.udemy.com/course/curso-banco-de-dados-nosql-mongodb-neo4j-redis/)
